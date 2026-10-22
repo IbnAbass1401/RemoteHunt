@@ -67,15 +67,15 @@ const JobPage = () => {
 
               <hr className="my-4" />
 
-              <h3 className="text-xl">{job.company.contactEmail}</h3>
+              <h3 className="text-xl">Contact Email:</h3>
 
               <p className="my-2 bg-indigo-100 p-2 font-bold">
-                contact@newteksolutions.com
+                {job.company.contactEmail}
               </p>
 
-              <h3 className="text-xl">{job.company.contactPhone}</h3>
+              <h3 className="text-xl">Contact Phone:</h3>
 
-              <p className="my-2 bg-indigo-100 p-2 font-bold">555-555-5555</p>
+              <p className="my-2 bg-indigo-100 p-2 font-bold">{job.company.contactPhone}</p>
             </div>
 
 

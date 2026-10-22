@@ -83,6 +83,21 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
+    },
+    {
+      "title": "Job 1",
+      "type": "Full-Time",
+      "location": "Nigeria",
+      "description": "Good Job",
+      "salary": "Under $50K",
+      "company": {
+        "name": "Company 1",
+        "description": "Good Company",
+        "contactEmail": "worker@gmail.com",
+        "contactPhone": "3454353433"
+      },
+      "id": "PbWF3kPwp4g"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
